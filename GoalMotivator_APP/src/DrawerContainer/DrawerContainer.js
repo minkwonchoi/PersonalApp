@@ -16,22 +16,7 @@ export default function DrawerContainer({navigation}) {
               navigation.closeDrawer();
             }}
           />
-          <MenuButton
-            title="CHALLENGES"
-            source={require('../assets/icons/category.png')}
-            onPress={() => {
-              navigation.navigate('Challenges');
-              navigation.closeDrawer();
-            }}
-          />
-          <MenuButton
-            title="SignUp"
-            source={require('../assets/icons/search.png')}
-            onPress={() => {
-              navigation.navigate('SignUp');
-              navigation.closeDrawer();
-            }}
-          />
+
           <MenuButton
             title="Profile"
             source={require('../assets/icons/profile.png')}
@@ -40,14 +25,7 @@ export default function DrawerContainer({navigation}) {
               navigation.closeDrawer();
             }}
           />
-          <MenuButton
-            title="GoalProofs"
-            source={require('../assets/icons/upload.png')}
-            onPress={() => {
-                navigation.navigate('Proofs');
-                navigation.closeDrawer();
-            }}
-          />
+
         </View>
       </View>
     );
