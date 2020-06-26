@@ -4,24 +4,17 @@ import { Text, View, Button } from 'react-native';
 export default function AboutUs({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Information on The Developers</Text>
+      <Text>Recommanded Classes</Text>
         <Button
-          title={"About Chris "}
+          title={"For Freshmen and Sophmore "}
           onPress={() => {navigation.navigate("ChrisBio");}}
         />
-        <Button
-          title={"About Chongkai "}
-          onPress={() => {navigation.navigate("wucBio");}}
-        />
+
          <Button
-          title={"About Qingtian Mei "}
+          title={"For Junior and Senior"}
           onPress={() => {navigation.navigate("QingtianMei");}}
         />
-        <Button
-          title={"About Harris Ripp "}
-          onPress={() => {navigation.navigate("HarrisRipp");}}
-        />
+
       </View>
   );
 }
-

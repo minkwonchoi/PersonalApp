@@ -6,6 +6,7 @@ import {
   Image,
   TouchableOpacity
 } from 'react-native';
+import phypic from '../../src/assets/profiles/phypic.jpg';
 
 export default class Profile extends Component {
 
@@ -13,19 +14,20 @@ export default class Profile extends Component {
     return (
       <View style={styles.container}>
           <View style={styles.header}></View>
-          <Image style={styles.avatar} source={{uri: 'https://bootdey.com/img/Content/avatar/avatar6.png'}}/>
+          <Image style={styles.avatar} source={phypic}/>
           <View style={styles.body}>
             <View style={styles.bodyContent}>
-              <Text style={styles.name}>Firstname Lastname</Text>
-              <Text style={styles.info}>Location</Text>
-              <Text style={styles.description}>Descrption</Text>
-              <Text style={styles.info}>LIST OF GROUPS??</Text>
+              <Text style={styles.name}>Brandeis Physics Classes</Text>
+              <Text style={styles.info}>by Chris Choi</Text>
+                <Text style={styles.info}> </Text>
+                <Text style={styles.info}> </Text>
+
 
               <TouchableOpacity style={styles.buttonContainer}>
-                <Text>Contact Method 1</Text>
+                <Text>Email Faculty</Text>
               </TouchableOpacity>
               <TouchableOpacity style={styles.buttonContainer}>
-                <Text>Contact Method 2</Text>
+                <Text>Email UDR </Text>
               </TouchableOpacity>
             </View>
         </View>

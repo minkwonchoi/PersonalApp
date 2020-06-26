@@ -16,7 +16,7 @@ function SettingsScreen() {
   return (
     <View>
       <Text style={{textAlign: 'center', marginTop: 300}}>
-        This is a Setting Page. 
+        Please contact the Physics Department for any inconvenience
       </Text>
     </View>
   );

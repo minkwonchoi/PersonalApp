@@ -15,56 +15,28 @@ export default class Profile extends Component {
     return (
       <View style={styles.container}>
           <View style={styles.header}></View>
-          <Image style={styles.avatar} source={ChrisPic}/>
           <View style={styles.body}>
             <View style={styles.bodyContent}>
-              <Text style={styles.name}>Chris Min Kwon Choi</Text>
-              <View style={styles.socialRow}>
-          <View>
-            <Icon
-              size={30}
-              type="entypo"
-              color="#3B5A98"
-              name="facebook-with-circle"
-              onPress={() => console.log('facebook')}
-            />
-          </View>
-          <View style={styles.socialIcon}>
-            <Icon
-              size={30}
-              type="entypo"
-              color="#56ACEE"
-              name="twitter-with-circle"
-              onPress={() => console.log('twitter')}
-            />
-          </View>
-          <View>
-            <Icon
-              size={30}
-              type="entypo"
-              color="#DD4C39"
-              name="google--with-circle"
-              onPress={() => console.log('google')}
-            />
-         </View>
-              <View style={styles.socialIcon}>
-            <Icon
-              size={30}
-              type="entypo"
-              color="#3B5A98"
-              name="linkedin-with-circle"
-              onPress={() => console.log('linkedin')}
-            />
-         </View>
-         </View>
-              <Text style={styles.info}>Undergraduate,
-                    <Text style={styles.school}> Brandeis University, </Text>
-              </Text>
-             <Text style={styles.info}>
-                   <Text style={styles.major}>Bachelor of Science in Physics and Computer Science, </Text>
-                     .
-             </Text>
-              <Text style={styles.description}>Chris Choi is rising junior at Brandeis University. </Text>
+              <Text style={styles.name}>For Freshmen</Text>
+              <Text style={styles.info}> PHYS 11a,b may replace 15a,b but 15a,b is highly recommanded  </Text>
+              <Text style={styles.description}>PHYS 15a</Text>
+              <Text style={styles.description}>PHYS 15b</Text>
+              <Text style={styles.description}>PHYS 19a</Text>
+              <Text style={styles.description}>PHYS 19b</Text>
+
+
+              <Text style={styles.name}> </Text>
+
+              <Text style={styles.name}>For Sophmore</Text>
+              <Text style={styles.info}> The following classes are recommanded but you may take other classes  </Text>
+              <Text style={styles.description}>PHYS 20a</Text>
+              <Text style={styles.description}>PHYS 29a</Text>
+              <Text style={styles.description}>PHYS 30a</Text>
+              <Text style={styles.description}>PHYS 31a</Text>
+              <Text style={styles.description}>PHYS 31b</Text>
+              <Text style={styles.description}>PHYS 40a</Text>
+
+
             </View>
         </View>
       </View>
