@@ -27,11 +27,11 @@ export default function MainNavigator({props}) {
         }
       }}
     >
-      <Stack.Screen name="MyProfile" component={MyProfile} options={{ header: props => <CustomedHeader name="MyProfile" navigation={props.navigation} /> }}/>
+      <Stack.Screen name="MyProfile" component={MyProfile} options={{ header: props => <CustomedHeader name="PHYSICS" navigation={props.navigation} /> }}/>
       <Stack.Screen name="About Us" component={AboutUs} options={{ header: props => <CustomedHeader name="About" navigation={props.navigation} /> }} />
       <Stack.Screen name="Home" component={Home} options={{ header: props => <CustomedHeader name="Home" navigation={props.navigation} /> }} />
-      <Stack.Screen name="ChrisBio" component={ChrisBio} options={{ header: props => <CustomedHeader name="Chris" navigation={props.navigation} /> }}/>
-      <Stack.Screen name="QingtianMei" component={QingtianMei} options={{ header: props => <CustomedHeader name="Mei" navigation={props.navigation} /> }}/>
+      <Stack.Screen name="ChrisBio" component={ChrisBio} options={{ header: props => <CustomedHeader name="LowerClass" navigation={props.navigation} /> }}/>
+      <Stack.Screen name="QingtianMei" component={QingtianMei} options={{ header: props => <CustomedHeader name="UpperClass" navigation={props.navigation} /> }}/>
       <Stack.Screen name="HarrisRipp" component={HarrisRipp} options={{ header: props => <CustomedHeader name="Harris" navigation={props.navigation} /> }}/>
 
     </Stack.Navigator>
